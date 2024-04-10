@@ -20,7 +20,7 @@ jobs:
 
       # Connect your workspace on nx.app and uncomment this to enable task distribution.
       # The "--stop-agents-after" is optional, but allows idle agents to shut down once the "build" targets have been requested
-      # - run: yarn nx-cloud start-ci-run --distribute-on="5 linux-medium-js" --stop-agents-after="build"
+      - run: yarn nx-cloud start-ci-run --distribute-on="5 linux-medium-js" --stop-agents-after="e2e-ci"
 
       # Cache node_modules
       - uses: actions/setup-node@v3
@@ -36,5 +36,5 @@ jobs:
         if: ${{ github.event_name == 'pull_request' }}
 
       - run: yarn nx-cloud record -- nx format:check
-      - run: yarn nx affected -t lint test build
-      - run: yarn nx affected -t e2e --parallel=1
+      - run: yarn nx affected -t lint test build --parallel=3
+      - run: yarn nx affected -t e2e-ci --parallel=1
