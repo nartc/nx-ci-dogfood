@@ -4,7 +4,10 @@
   "license": "MIT",
   "scripts": {},
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "@nx/angular": "^18.2.4",
+    "@nx/remix": "^18.2.4"
+  },
   "devDependencies": {
     "@nx/js": "18.2.4",
     "@nx/workspace": "18.2.4",
