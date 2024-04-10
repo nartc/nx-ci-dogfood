@@ -17,7 +17,7 @@
   "tasksRunnerOptions": {
     "default": {
       "options": {
-        "useLightClient": false
+        "useLightClient": true
       }
     }
   },
