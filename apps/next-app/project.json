@@ -1,0 +1,16 @@
+{
+  "name": "next-app",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/next-app",
+  "projectType": "application",
+  "tags": [],
+  "targets": {
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "apps/next-app/jest.config.ts"
+      }
+    }
+  }
+}
