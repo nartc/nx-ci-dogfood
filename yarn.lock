@@ -2356,6 +2356,13 @@
   dependencies:
     "@nx/js" "18.2.4"
 
+"@nrwl/next@18.2.4":
+  version "18.2.4"
+  resolved "https://registry.yarnpkg.com/@nrwl/next/-/next-18.2.4.tgz#467d13ab69551e381d895b795d9ebb56d0389bd7"
+  integrity sha512-6vR+Nnnlw7THBkmzxZ2ilskv2fkJlg9ja1UFCiO2G7bFcJZO/qz51M+TYd5g+28dO7Sd1FrQTysBaKi8+BctKA==
+  dependencies:
+    "@nx/next" "18.2.4"
+
 "@nrwl/react@18.2.4":
   version "18.2.4"
   resolved "https://registry.yarnpkg.com/@nrwl/react/-/react-18.2.4.tgz#e356d553829001c0feed508d3a8090f68fa7776f"
@@ -2529,6 +2536,30 @@
   integrity sha512-hCwQASz2RYwhifqRU5fP7t/xM/sBHhACeY/0mJC1F+ULIgJaTS1hP2foadrPjK7ROJRDI3tfOKo+k5kDlzEWmQ==
   dependencies:
     "@nx/eslint" "18.2.4"
+
+"@nx/next@18.2.4", "@nx/next@^18.2.4":
+  version "18.2.4"
+  resolved "https://registry.yarnpkg.com/@nx/next/-/next-18.2.4.tgz#164312fd63cc7c01fd3e8ddc84db2c5bd821eeac"
+  integrity sha512-62aiCQz3kgFFCXbxxlJW2l2DnmIYJQ5o9ORayA2Ias5lTJHcjRKD/D3CF+GcBSNJXwxsqLRNFz04BVy0DPacqw==
+  dependencies:
+    "@babel/plugin-proposal-decorators" "^7.22.7"
+    "@nrwl/next" "18.2.4"
+    "@nx/devkit" "18.2.4"
+    "@nx/eslint" "18.2.4"
+    "@nx/js" "18.2.4"
+    "@nx/react" "18.2.4"
+    "@nx/web" "18.2.4"
+    "@nx/webpack" "18.2.4"
+    "@nx/workspace" "18.2.4"
+    "@svgr/webpack" "^8.0.1"
+    chalk "^4.1.0"
+    copy-webpack-plugin "^10.2.4"
+    file-loader "^6.2.0"
+    fs-extra "^11.1.0"
+    ignore "^5.0.4"
+    semver "^7.5.3"
+    tslib "^2.3.0"
+    webpack-merge "^5.8.0"
 
 "@nx/nx-darwin-arm64@18.2.4":
   version "18.2.4"
